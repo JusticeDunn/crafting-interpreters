@@ -1,3 +1,3 @@
 # crafting-interpreters
 
-My implementation of 'jlox' and 'clox' from Robert Nystrom's 'Crafting Interpreters' book
+My implementation of the *jlox* and *clox* languages from Robert Nystrom's [**Crafting Interpreters**](http://craftinginterpreters.com/) book
