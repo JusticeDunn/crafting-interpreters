@@ -6,7 +6,7 @@ class AstPrinter implements Expr.Visitor<String> {
     }
 
     @Override
-    public String visitBinaryExp(Expr.Binary expr) {
+    public String visitBinaryExpr(Expr.Binary expr) {
         return parenthesize(expr.operator.lexeme, expr.left, expr.right);
     }
 
