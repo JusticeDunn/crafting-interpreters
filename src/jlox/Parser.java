@@ -58,6 +58,8 @@ public class Parser {
             Expr right = factor();
             expr = new Expr.Binary(expr, operator, right);
         }
+
+        return expr;
     }
 
     private Expr factor() {
